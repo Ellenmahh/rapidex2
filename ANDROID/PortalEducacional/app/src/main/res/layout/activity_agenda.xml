@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_agenda"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="br.com.bmnv.portalaluno.app.AgendaActivity"
+    android:orientation="vertical"
+    android:theme="@style/AppTheme.ActionBar">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="150dp"
+       android:orientation="vertical"
+       android:background="#003f72">
+
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="40dp"
+           android:layout_marginTop="20dp"
+           android:src="@drawable/ic_chrome_reader_mode_white_24dp"/>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:text="AGENDA"
+           android:textColor="@color/color"
+           android:textStyle="bold"
+           android:textSize="26dp"
+           android:gravity="center"
+           android:id="@+id/textView" />
+
+   </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="15dp"
+        android:background="#003f72">
+
+
+            <Button
+                android:background="#003f72"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:text="eventos"
+                android:onClick="abrirEventos" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:background="#003f72"
+            android:onClick="abrirTrabalhos">
+
+
+            <Button
+                android:background="#003f72"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:text="Trabalhos"
+                android:onClick="abrirTrabalhos" />
+        </TableRow>
+
+
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="15dp"
+            android:background="#003f72">
+
+
+            <Button
+                android:background="#003f72"
+                android:textColor="#fff"
+                android:layout_weight="1"
+                android:text="Provas"
+                android:id="@+id/button"
+                android:onClick="abrirProvas"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</LinearLayout>

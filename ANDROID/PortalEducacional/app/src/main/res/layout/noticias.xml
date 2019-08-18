@@ -1,0 +1,389 @@
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/color">
+
+    <TableLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        tools:context="br.com.bmnv.portalaluno.app.MainActivity">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="-10dp">
+
+            <android.support.v4.view.ViewPager
+
+                android:id="@+id/view_pager"
+                android:layout_height="200dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                >
+
+            </android.support.v4.view.ViewPager>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/color"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="250dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/borda_customizada"
+                    android:layout_marginRight="7dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/bigodao">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Na FIESP, secretário de energia e mineração de SP fala em futuro com fontes renováveis"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="2dp"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.3"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_today_black_18dp"
+                                android:layout_marginLeft="75dp"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="25dp"
+                                android:text="25/03/2017"
+                                android:textColor="#808080"
+                                android:textStyle="italic|bold"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/borda_customizada"
+                    android:layout_marginRight="7dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/not">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Conservação de alimentos e sustentabilidade em debate em simpósio na FIESP"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.3"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_today_black_18dp"
+                                android:layout_marginLeft="75dp"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="25dp"
+                                android:text="22/03/2017"
+                                android:textColor="#808080"
+                                android:textStyle="italic|bold"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="250dp"
+                android:orientation="horizontal"
+                android:background="@drawable/business2"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/textView_swipe"
+                    android:layout_gravity="bottom"
+                    android:text="Edital do Senai oferece até R$ 400 mil para projetos com startups"
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:background="#90000000"
+
+                    />
+            </LinearLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="18dp">
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:layout_height="50dp"
+                android:layout_width="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:layout_weight="1"
+                android:text="EVENTOS"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="250dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/borda_customizada"
+                    android:layout_marginRight="7dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/russo">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="Russos recebem do SENAI treinamento que garantiu ao Brasil ser campeão em torneio internacional"
+                            android:paddingLeft="5dp"
+                            android:paddingTop="2dp"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.3"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_today_black_18dp"
+                                android:layout_marginLeft="75dp"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="25dp"
+                                android:text="05/04/2017"
+                                android:textColor="#808080"
+                                android:textStyle="italic|bold"
+                                />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/borda_customizada"
+                    android:layout_marginRight="7dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/eadcurso">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:textStyle="bold"
+                            android:textColor="#000"
+                            android:text="5 cursos EAD grátis do SENAI para impulsionar sua carreira"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp">
+
+                            <ImageView
+                                android:layout_width="0dp"
+                                android:layout_weight="0.3"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/ic_today_black_18dp"
+                                android:layout_marginLeft="75dp"/>
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="25dp"
+                                android:text="14/03/2017"
+                                android:textColor="#808080"
+                                android:textStyle="italic|bold"
+                                />
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/world1"
+                    android:layout_marginTop="15dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:background="@drawable/borda_customizada"
+                    android:paddingRight="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:textColor="#000"
+                        android:text="No ano de 2017 o SENAI participará de mais uma World Skills, e dessa vez em  Abu Dhabi."
+                        android:paddingLeft="5dp"
+                        android:paddingTop="2dp"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </TableRow>
+
+
+    </TableLayout>
+</ScrollView>

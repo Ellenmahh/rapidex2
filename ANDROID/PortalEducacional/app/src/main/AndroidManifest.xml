@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.bmnv.portalaluno.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splaschscreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RendimentoActivity"
+            android:label="@string/title_activity_rendimento"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.bmnv.portalaluno.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".AgendaActivity"
+            android:theme="@style/AppTheme.ActionBar" />
+        <activity
+            android:name=".MeuPerfilActivity"
+            android:label="@string/title_activity_meu_perfil"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.bmnv.portalaluno.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".EventosActivity"
+            android:label="@string/title_activity_eventos"
+            android:parentActivityName=".AgendaActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.bmnv.portalaluno.app.AgendaActivity" />
+        </activity>
+        <activity
+            android:name=".NovoEventoActivity"
+            android:label="@string/title_activity_novo_evento"
+            android:parentActivityName=".EventosActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.bmnv.portalaluno.app.EventosActivity" />
+        </activity>
+        <activity
+            android:name=".TrabalhosActivity"
+            android:label="@string/title_activity_trabalhos"
+            android:parentActivityName=".AgendaActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.bmnv.portalaluno.app.AgendaActivity" />
+        </activity>
+        <activity
+            android:name=".ProvasActivity"
+            android:label="@string/title_activity_provas"
+            android:parentActivityName=".AgendaActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.bmnv.portalaluno.app.AgendaActivity" />
+        </activity>
+        <activity
+            android:name=".Biblioteca"
+            android:label="Biblioteca"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.bmnv.portalaluno.app.Biblioteca" />
+        </activity>
+        <activity
+            android:name=".MudarFoto"
+            android:label="MudarFoto"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.bmnv.portalaluno.app.HomeActivity" />
+        </activity>
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MudarSenhaActivity"
+            android:label="@string/title_activity_mudar_senha"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.bmnv.portalaluno.app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ViewSenha"
+            android:label="@string/title_activity_view_senha"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.bmnv.portalaluno.app.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Agenda2Activity"
+            android:label="@string/title_activity_agenda2"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.bmnv.portalaluno.app.HomeActivity" />
+        </activity>
+        <activity
+            android:name=".NovaAnotacaoActivity"
+            android:label="@string/title_activity_nova_anotacao"
+            android:parentActivityName=".Agenda2Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.bmnv.portalaluno.app.Agenda2Activity" />
+        </activity>
+        <activity
+            android:name=".DetalhesActivity"
+            android:label="@string/title_activity_detalhes"
+            android:parentActivityName=".Agenda2Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.bmnv.portalaluno.app.Agenda2Activity" />
+        </activity>
+    </application>
+
+</manifest>

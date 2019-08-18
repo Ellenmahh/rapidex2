@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Gastometro</string>
+    <string name="action_deletar">deletar</string>
+    <string name="action_resumo">Resumo</string>
+    <string name="title_activity_inserir">Inserir</string>
+    <string name="title_activity_detalhes">Detalhes</string>
+    <string name="title_activity_editar">Editar</string>
+    <string name="title_activity_resumo">Resumo</string>
+</resources>

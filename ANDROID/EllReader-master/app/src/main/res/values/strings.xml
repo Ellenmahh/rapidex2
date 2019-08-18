@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ELL Reader</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">ELL Reader</string>
+    <string name="title_activity_cadastrar_user">ELL Reader</string>
+    <string name="title_activity_abrir_livro_web">ELL Reader</string>
+    <!-- <string name="endServidor">http://10.107.144.15/20171sem/EllReaderWEB/</string> -->
+    <string name="title_activity_config">configActivity</string>
+    <!--  <string name="endServidor">http://10.107.134.16/EllReaderWEB/</string>-->
+    <string name="endServidor">http://outsidethebx.com.br/EllReaderWeb/</string>
+</resources>

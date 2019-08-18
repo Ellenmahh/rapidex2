@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Portal Aluno</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_home">Inicio</string>
+    <string name="title_activity_eventos">Meus Eventos</string>
+    <string name="title_activity_novo_evento">Novo Evento</string>
+    <string name="title_activity_trabalhos">Meus Trabalhos</string>
+    <string name="title_activity_provas">Minhas Provas</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_meu_perfil">Meu Perfil</string>
+    <string name="link">http://outsidethebx.com.br/portaleducacional/</string>
+    <string name="title_activity_rendimento">Rendimento</string>
+
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">BIBLIOTECA</string>
+    <string name="backdrop_subtitle">Principais Livros</string>
+    <string name="title_activity_mudar_senha">Recuperar Senha</string>
+    <string name="title_activity_view_senha">Senha</string>
+    <string name="title_activity_agenda2">Minhas Anotações</string>
+    <string name="title_activity_nova_anotacao">Nova Anotação</string>
+    <string name="title_activity_detalhes">DetalhesActivity</string>
+
+</resources>

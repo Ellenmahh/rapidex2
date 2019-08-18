@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#da251c</color>
+    <color name="colorPrimaryDark">#da251c</color>
+    <color name="colorAccent">#da251c</color>
+    <color name="color">#fff</color>
+
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+
+    <color name="colorPrimaryEventos">#074a71</color>
+    <color name="colorPrimaryDarkEventos">#074a71</color>
+    <color name="colorAccentEventos">#074a71</color>
+    <color name="colorEventos">#fff</color>
+</resources>

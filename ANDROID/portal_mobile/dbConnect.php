@@ -1,0 +1,11 @@
+<?php
+ //###################CONEXAO COM O BANCO DE DADOS, MYSQL#############################
+//REALIZA A CONEXÃO COM O BANCO DE DADOS, MYSQL.
+//PASSAMOS PARA ESSA CONEXÃO O LOCAL DO BANCO, O USUÁRIO E A SENHA.
+$con=mysqli_connect($_SERVER['RDS_HOSTNAME'],$_SERVER['RDS_USERNAME'] ,$_SERVER['RDS_PASSWORD']);
+//ESPECIFICAMOS O DATABASE A SER UTILIZADO.
+mysqli_select_db($con,$_SERVER['RDS_DB_NAME']);
+
+
+ 
+ ?>
